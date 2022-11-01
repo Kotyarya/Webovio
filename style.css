@@ -1,0 +1,33 @@
+:root {
+  font-size: 0.6944vw;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}
+.background {
+  position: absolute;
+  z-index: 1;
+  width: 100vw;
+}
+.logo {
+  position: relative;
+  z-index: 2;
+  margin-top: 2.4rem;
+  margin-left: 16.4rem;
+  width: 25.8rem;
+  height: 4rem;
+}
+.nav {
+  position: relative;
+  z-index: 3;
+  margin-top: 2.7rem;
+  margin-right: 16.6rem;
+  width: 4rem;
+  height: 4rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
