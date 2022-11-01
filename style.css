@@ -5,6 +5,8 @@ p,
 a {
   margin: 0;
   font-family: "Poppins", serif;
+  color: #fff;
+  font-weight: 400;
 }
 body {
   margin: 0 auto;
@@ -41,4 +43,16 @@ header {
   z-index: 2;
   margin-left: 16.6rem;
   margin-top: 18.8rem;
+}
+.creative-subtitle {
+  font-size: 1.4rem;
+}
+.creative-title {
+  font-weight: 700;
+  font-size: 6rem;
+  margin-top: 2.2rem;
+}
+.creative-discription {
+  font-size: 1.6rem;
+  margin-top: 2.4rem;
 }
