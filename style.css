@@ -1,6 +1,11 @@
 :root {
   font-size: 0.6944vw;
 }
+p,
+a {
+  margin: 0;
+  font-family: "Poppins", serif;
+}
 body {
   margin: 0 auto;
   padding: 0;
@@ -30,4 +35,10 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+}
+.creative {
+  position: relative;
+  z-index: 2;
+  margin-left: 16.6rem;
+  margin-top: 18.8rem;
 }
