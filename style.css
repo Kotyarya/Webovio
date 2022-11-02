@@ -1,5 +1,6 @@
 :root {
-  font-size: 0.6944vw;
+  --fontSize: 0.6944vw;
+  font-size: var(--fontSize);
 }
 p,
 a {
@@ -42,7 +43,7 @@ header {
   position: relative;
   z-index: 2;
   margin-left: 16.6rem;
-  margin-top: 18.8rem;
+  margin-top: 12.1rem;
 }
 .creative-subtitle {
   font-size: 1.4rem;
