@@ -6,7 +6,7 @@ p,
 a {
   margin: 0;
   font-family: "Poppins", serif;
-  color: #fff;
+  color: #000;
   font-weight: 400;
 }
 body {
@@ -16,7 +16,7 @@ body {
 }
 .background {
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   width: 100vw;
 }
 .logo {
@@ -47,13 +47,62 @@ header {
 }
 .creative-subtitle {
   font-size: 1.4rem;
+  color: #fff;
 }
 .creative-title {
   font-weight: 700;
   font-size: 6rem;
   margin-top: 2.2rem;
+  line-height: 7.4rem;
+  color: #fff;
 }
 .creative-discription {
   font-size: 1.6rem;
   margin-top: 2.4rem;
+  margin-bottom: 4.5rem;
+  line-height: 2.6rem;
+  color: #fff;
+}
+.creative-link {
+  color: rgba(255, 215, 35, 1);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.logo-teams {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  display: flex;
+  gap: 6.6rem;
+  width: 127.6rem;
+  height: 22.7rem;
+  margin-left: 16.5rem;
+  margin-top: 10.7rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  position: absolute;
+}
+.logo-teams img {
+  width: 15.6rem;
+  height: 11.3rem;
+}
+.strategy {
+  margin-left: 16.6rem;
+  margin-top: 21rem;
+  height: 64.4rem;
+  display: flex;
+}
+.strategy-text {
+  padding-top: 24.4rem;
+}
+.strategy-card {
+  background-color: #fff;
+  box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.145947);
+  width: 47.4rem;
+}
+.card-signature img {
+  border-radius: 50%;
+  width: 9rem;
+  height: 9rem;
 }
