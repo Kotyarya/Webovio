@@ -122,12 +122,12 @@ header {
   font-weight: 600;
   color: rgba(212, 214, 212, 1);
 }
-.strategy-card {
+.strategy-publication {
   background-color: #fff;
   box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.145947);
   width: 47.4rem;
 }
-.card-discription {
+.publication-discription {
   padding-top: 24.4rem;
   font-style: italic;
   font-size: 2.4rem;
@@ -136,12 +136,12 @@ header {
   padding-right: 0.8rem;
   color: rgba(77, 83, 60, 1);
 }
-.card-signature {
+.publication-signature {
   display: flex;
   margin-left: 4rem;
   margin-top: 5rem;
 }
-.card-signature img {
+.publication-signature img {
   border-radius: 50%;
   width: 9rem;
   height: 9rem;
@@ -161,4 +161,109 @@ header {
 .signature-subtitle {
   font-size: 1.6rem;
   color: rgba(21, 41, 52, 1);
+}
+.project {
+  display: flex;
+  margin-top: 30rem;
+  margin-left: 16.5rem;
+  gap: 13.3rem;
+}
+.project-title {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: rgba(77, 83, 60, 1);
+}
+.project-discription {
+  font-size: 1.6rem;
+  color: rgba(33, 56, 66, 0.6);
+}
+.block-balenciaga {
+  display: flex;
+  margin-top: 11rem;
+  gap: 9.6rem;
+}
+.block-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-self: center;
+}
+.block-title {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: rgba(77, 83, 60, 1);
+}
+.block-discription {
+  font-size: 1.6rem;
+  color: rgba(33, 56, 66, 0.6);
+}
+.block-link {
+  font-size: 1.6rem;
+  color: rgba(212, 214, 212, 1);
+  font-weight: 600;
+  margin-top: 6.6rem;
+}
+.block-card {
+  position: absolute;
+  background-color: #fff;
+  width: 45.3rem;
+  height: 24.3rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin: 37.2rem 0 0 32.2rem;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+}
+.card-discription {
+  font-size: 1.6rem;
+  font-style: italic;
+  padding: 3rem 3rem 0 3rem;
+}
+.card-signature {
+  display: flex;
+  margin-top: 2.4rem;
+  margin-left: 3rem;
+  gap: 1.4rem;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.card-signature img {
+  border-radius: 50%;
+  width: 4.6rem;
+  height: 4.6rem;
+}
+.card-title {
+  color: rgba(77, 83, 60, 1);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.card-subtitle {
+  color: rgba(21, 41, 52, 1);
+  font-size: 1.4rem;
+}
+.block-model {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 11rem;
+  gap: 9.6rem;
+}
+.block-card-reverse {
+  position: absolute;
+  background-color: #fff;
+  width: 45.3rem;
+  height: 24.3rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin: 37.2rem 32.2rem 0 0;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+}
+.block-booking {
+  display: flex;
+  margin-top: 11rem;
+  gap: 9.6rem;
 }
