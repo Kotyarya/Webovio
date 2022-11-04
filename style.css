@@ -15,6 +15,9 @@ body {
   overflow-x: hidden;
   font-size: var(--fontSize);
 }
+a:hover {
+  color: rgba(255, 215, 35, 1);
+}
 .background {
   position: absolute;
   z-index: -1;
@@ -235,6 +238,7 @@ header {
   border-radius: 50%;
   width: 4.6rem;
   height: 4.6rem;
+  box-shadow: 20px 25px 43px rgba(0, 0, 0, 0.18);
 }
 .card-title {
   color: rgba(77, 83, 60, 1);
@@ -250,6 +254,7 @@ header {
   flex-direction: row-reverse;
   margin-top: 11rem;
   gap: 9.6rem;
+  margin-left: 17.2rem;
 }
 .block-card-reverse {
   position: absolute;
