@@ -185,6 +185,10 @@ header {
   margin-top: 11rem;
   gap: 9.6rem;
 }
+.block-img {
+  width: 73.5rem;
+  height: 50.5rem;
+}
 .block-text {
   display: flex;
   flex-direction: column;
@@ -234,7 +238,7 @@ header {
   align-content: center;
   justify-content: center;
 }
-.card-signature img {
+.card-img {
   border-radius: 50%;
   width: 4.6rem;
   height: 4.6rem;
@@ -271,4 +275,25 @@ header {
   display: flex;
   margin-top: 11rem;
   gap: 9.6rem;
+}
+.deation {
+  margin-top: 24rem;
+  margin-left: 16.5rem;
+}
+.deation-title {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+.deation-sections {
+  display: flex;
+  flex-direction: row;
+}
+.deation-section {
+  display: flex;
+  flex-direction: column;
+  width: 25.5rem;
+  height: 30.9rem;
+}
+.section-title {
+  font-size: 2.4rem;
 }
