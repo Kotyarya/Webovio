@@ -295,7 +295,6 @@ header {
   width: 25.5rem;
   height: 30.9rem;
   justify-content: space-around;
-  padding: 0 3rem;
 }
 .section-title {
   font-size: 2.4rem;
@@ -311,4 +310,57 @@ header {
   font-size: 1.6rem;
   font-weight: 600;
   color: rgba(212, 214, 212, 1);
+}
+.amazing {
+  background-color: #fafafa;
+  width: 127.5rem;
+  height: 36.2rem;
+  box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+  display: flex;
+  gap: 5rem;
+  flex-direction: column;
+  margin-top: 15rem;
+  position: absolute;
+}
+.amazing-title {
+  font-weight: 700;
+  font-size: 6rem;
+  padding-top: 7rem;
+  padding-left: 16.4rem;
+  color: rgba(77, 83, 60, 1);
+}
+.amazing-link {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: rgba(212, 214, 212, 1);
+  padding-left: 16.4rem;
+}
+footer {
+  margin-top: 32.2rem;
+  background-image: url(img/bg-footer.png);
+  width: 100%;
+  height: 92rem;
+}
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 22.6rem);
+  grid-template-rows: repeat(2, 4.4rem);
+  padding-top: 31rem;
+  padding-left: 16.5rem;
+}
+.contact-title {
+  font-size: 1.6rem;
+  color: rgba(182, 193, 151, 1);
+}
+.contact-data {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #fff;
+}
+.line {
+  border-bottom: solid;
+  border-color: rgba(93, 101, 68, 1);
+  padding-top: 5.2rem;
+  margin-left: 16.5rem;
+  margin-right: 16.5rem;
 }
