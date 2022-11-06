@@ -194,6 +194,7 @@ header {
   display: flex;
   margin-top: 11rem;
   gap: 9.6rem;
+  margin-bottom: 13.5rem;
 }
 .block-img {
   width: 73.5rem;
@@ -269,6 +270,7 @@ header {
   margin-top: 11rem;
   gap: 9.6rem;
   margin-left: 17.2rem;
+  margin-bottom: 13.5rem;
 }
 .block-card-reverse {
   position: absolute;
@@ -429,6 +431,8 @@ footer {
 }
 .media-icon img {
   opacity: 0.5;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 .media-icon button:hover {
   background-color: rgba(255, 215, 35, 1);
@@ -447,4 +451,8 @@ footer {
 .footer-logo p {
   color: rgba(181, 192, 150, 1);
   font-size: 1.4rem;
+}
+.footer-logo img {
+  width: 20rem;
+  height: 3.5rem;
 }
