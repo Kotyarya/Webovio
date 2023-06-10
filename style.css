@@ -16,7 +16,7 @@ body {
   font-size: var(--fontSize);
 }
 a:hover {
-  color: rgba(255, 215, 35, 1);
+  color: rgb(255, 35, 35);
 }
 ::-webkit-scrollbar {
   width: 1px;
